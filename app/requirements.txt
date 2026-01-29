@@ -1,0 +1,5 @@
+flask
+boto3
+geopandas
+sqlalchemy
+psycopg2-binary
