@@ -6,11 +6,6 @@
  processing GeoJSON files using GeoPandas and storing them in PostGIS as
  part of an event-driven data pipeline.
  
-> **Design Only – Production Grade Architecture**  
-> This project is implemented as a design-only system.  
-> No real cloud resources were created, but all components are designed  
-> as a real production-grade DevOps architecture.
-
 ## Phases
 - Phase 0 – Repository & Structure
 - Phase 1 – Infrastructure as Code (Terraform)
@@ -111,3 +106,10 @@ Git push → CI/CD → Docker build → ECS update
 
 ## One-Line Summary
 A production-grade event-driven GIS processing microservice running on ECS Fargate with full DevOps automation.
+
+
+> **Design Only – Production Grade Architecture**  
+> This project is implemented as a design-only system.  
+> No real cloud resources were created, but all components are designed  
+> as a real production-grade DevOps architecture.
+
